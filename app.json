@@ -40,7 +40,15 @@
         "@rnmapbox/maps",
         {
           "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZmFyaGFuLTAxIiwiYSI6ImNtMDgyeHZydDEzaHAyanNnZzI4dGQwdnEifQ.QIIBg7KdRiyEvtOZX2_RMg",
-          "RNMapboxMapsVersion": "11.*"
+          "RNMapboxMapsVersion": "11.0.0"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Show current location on map.",
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": true
         }
       ]
     ]
